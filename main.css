@@ -1,0 +1,303 @@
+/* h1 {
+    color:blue;
+    background-color:rgb(242, 222, 1);
+} */
+
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.socials {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul>li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+.socials li a:hover {
+    color: #FF69B4;
+}
+
+.socials li a:hover i {
+    color: #FF69B4;
+}
+
+ol>li {
+
+    margin-right: 20px;
+}
+
+
+.instagram-icon a::before {
+    font-family: "Bootstrap Icons";
+    content: "\f16d";
+    /* Code for the Instagram icon */
+    margin-right: 5px;
+}
+
+.bi-instagram {
+    margin-right: 5px;
+}
+
+
+.bi-linkedin {
+    margin-right: 5px;
+}
+
+.bi-twitter {
+    margin-right: 5px;
+}
+
+.bi-envelope-at {
+    margin-right: 5px;
+}
+
+.table-dark thead th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form .error {
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+#mission-style {
+    text-align: left;
+}
+
+.mission-para-style {
+    text-align: left;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    /*text-transform: uppercase;*/
+    background: linear-gradient(to right, #f44336, #2196f3);
+    /*-webkit-background-clip: text;*/
+    -webkit-text-fill-color: transparent;
+}
+
+.workout-text {
+    margin-left: 20px;
+}
+
+.product-table {
+    border: 1px solid #ccc;
+}
+
+.product-table th {
+    background: linear-gradient(to bottom, #70c4d4 0%, #0099cc 100%);
+    color: #fff;
+    padding: 10px;
+    font-weight: normal;
+}
+
+/* Set max-width for the carousel container */
+#tools-carousel {
+    max-width: 100%;
+}
+
+/* Set max-height for the carousel images */
+#tools-carousel img {
+    max-height: 400px;
+    width: 100%;
+}
+
+/* Center the carousel caption */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+/* Set the font size for the carousel caption */
+.carousel-caption h3,
+.carousel-caption p {
+    font-size: 1.5rem;
+}
+
+/* Set the height for the carousel indicators */
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+}
+
+/* Set the active state for the carousel indicators */
+.carousel-indicators .active {
+    background-color: #212529;
+}
+
+/* Hide the carousel controls on mobile devices */
+@media (max-width: 767px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+#tools-carousel .carousel-inner img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 5%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.video-container {
+    border: 1px solid black;
+}
+
+.workout-table-1 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #eaeaea, #f5f5f5);
+    border: 1px solid #ddd;
+}
+
+.workout-table-1 th,
+.workout-table-1 td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.workout-table-1 th {
+    background-color: #00796b;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.workout-table-2 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #eaeaea, #f5f5f5);
+    border: 1px solid #ddd;
+}
+
+.workout-table-2 th,
+.workout-table-2 td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.workout-table-2 th {
+    background-color: #4e4cb8;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.workout-table-3 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #eaeaea, #f5f5f5);
+    border: 1px solid #ddd;
+}
+
+.workout-table-3 th,
+.workout-table-3 td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.workout-table-3 th {
+    background-color: #d35400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#healthy-image {
+    margin-bottom: 20px;
+}
+
+#running-image {
+    margin-bottom: 20px;
+}
